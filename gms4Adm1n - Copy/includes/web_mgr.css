@@ -1,0 +1,383 @@
+body, td, p {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: white;
+}
+
+th {
+	text-align: left;
+	background-color: white;
+	color: black;
+	padding-left: 3px;
+}
+
+td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+}
+
+hr {
+	color: white;
+}
+
+a, a:link {
+	text-decoration: none;
+	color: black;
+	background-color: silver;
+	border-left: 1px solid white;
+	border-top: 1px solid white;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+a:hover {
+	text-decoration: none;
+	color: black;
+	background-color: White;
+	border-left: 2px solid black;
+	border-top: 2px solid black;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+a.form, a.form:link, a.form:visited {
+	text-decoration: none;
+	color: black;
+	background-color: silver;
+	border-left: 1px solid white;
+	border-top: 1px solid white;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+a.form:hover {
+	text-decoration: none;
+	color: black;
+	background-color: White;
+	border-left: 2px solid black;
+	border-top: 2px solid black;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+img.phpLogo {
+	background-color: white;
+}
+
+#clearBG {
+	background-color: #c6dbef;
+	border: 1px solid #c6dbef;
+}
+
+.intro { 
+	font-family:Verdana,sans-serif; font-size:10pt;
+}
+
+
+/* ---------------------- */
+/* -- Calendar classes -- */
+/* ---------------------- */
+
+#calBody {
+	background-color: #c6dbef;
+}
+
+.calHeader {
+	font-weight: bold;
+	text-align: center;
+	background-color: black;
+	color: #FC3;			
+}
+
+.calDates {
+	background-color: white;
+}
+
+.outOfRange {
+	background-color: #FC3;
+	text-align: center;
+	border-right: 1px solid Black;
+	border-bottom: 1px solid Black;
+}
+
+.inRange {
+	background-color: White;
+	text-align: center;
+	border-right: 1px solid Black;
+	border-bottom: 1px solid Black;
+}
+/* ---------------------- */
+
+.dollarBox {
+	text-align: right;
+}
+
+.introHeader {
+	font-weight:bold;
+	color:black;
+	font-size:16pt;
+}
+
+.eventTitle {
+	font-weight:bold;
+	text-transform:uppercase;
+	padding-left: 10px;
+}
+
+.feedback {
+	color: #000;
+	padding-left: 10px;
+	padding-right: 5px;
+}
+
+.alert {
+	color: Red;
+	background-color: White;
+	padding: 10px;
+}
+
+.dataRow {
+	color: #000;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-top: 1px solid white;
+}
+
+#indentBox {
+	position: relative;
+	left: 134px;
+	width: 586px;
+	/*  margin-bottom: 20px; Testing: to separate from table of documents */
+}
+
+.horzRule { 
+	font-size:2px;
+	border-bottom:none;
+	border-top:solid 1px #ababab; /* why not use black? */
+}
+
+.error {
+	color: red;
+	background-color: white;
+	padding: 5px;
+}
+
+.title {
+	font-size: 18px;
+	font-weight: bold;
+	/* background-color: #99CC00; */
+	color: #003333;
+}
+
+.subtitle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #003300;
+	font-weight: bold;
+}
+
+.header {
+	width: 586px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: #CC9900;
+	/*
+	(blue alternative)
+	color: #3D4774; 
+	*/
+}
+
+.nav {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	background-color: #CCFF99;
+	border-left: thin solid #FFFFFF;
+	border-top: thin solid #FFFFFF;
+	border-right : thin solid #336699;
+}
+
+.navLink {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	background-color: #DEDECA;
+	border-left: thin solid #FFFFFF;
+	border-top: thin solid #FFFFFF;
+	border-right : thin solid #336699;
+}
+
+.button { 
+	background-color: #CCFF99;
+}
+
+#currentTab {
+	background-color: #DEDECA;
+	border-left: thin solid #FFFFFF;
+	border-right : thin solid #336699;
+	border-bottom : thin solid #336699;
+}
+
+.warning {
+	padding: 5px;
+	margin-bottom: 8px;
+	background-color: white;
+	color: red;
+	width: 90%;
+}
+
+.formNote {
+	font-size: 8pt;
+	position: relative;
+	left: 6px;
+	padding: 5px;
+	margin-bottom: 8px;
+	color: black;
+	width: 90%;
+}
+.sidebar {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 14px;
+	padding: 3px;
+ 	color: #003333;
+}
+
+.sidebarHeader {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: White;
+	background-color: #98ACCC;
+	border-top: 3px solid #000;
+	border-bottom: 3px solid #000;
+}
+
+.sidebarFooter {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	background-color: #FFFF99;
+	font-style: italic;
+}
+
+.footer {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	background-color: white;
+	color: black;
+	padding: 10px;
+	/* border: 3px solid black */
+}
+
+.legal {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #333333;
+}
+
+.box1 {
+	border-width: thin;
+	border-color: #99FF99 #003300 #003300 #99FF99;
+ border-style: double;
+ }
+
+.promo {
+	font-family: "Times New Roman", Times, serif;
+	color: #000033;
+}
+
+.titlebar {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 9px;
+	color: #FFFFFF;
+	background-color: #336699;
+}
+
+.helpLink {
+	border: 0px solid #98ACCC;
+	background-color:#99CCFF;
+	color: blue;
+	text-decoration:underline;
+}
+
+/* ******************* */
+/* Form-related styles */
+/* ******************* */
+form {
+	background-color: #c6dbef; /* Modified 2005-12-08, RY. */
+	width: 586px;
+}
+
+#newMonth {
+	background-color: #69C;
+	position: relative;
+}
+
+.areaTitle {
+	background-color: #C90;
+	color: #FFF;
+	font-size: 11px;
+	font-weight: bold;
+	padding-left: 5px;
+	padding-bottom: 2px;
+	text-transform: uppercase;
+}
+
+.formTitle {
+	background-color: black;
+	color: #C90;
+	font-size: 18px;
+	font-weight: bold;
+	padding-left: 5px;
+	padding-bottom: 5px;
+}
+
+.formLabel {
+	text-align: right;
+	font-weight: bold;
+	color: black;
+}
+
+.formText {
+	color: black;
+}
+
+.inputTable {
+	border: 3px solid black;
+}
+
+.inputTable td {
+	padding: 3px;
+}
+
+input, option {
+	/* background-color: #E0E9F2; */
+}
+
+input.big {
+	width: 100px;
+}
+
+input.small {
+	width: 50px;
+}
+

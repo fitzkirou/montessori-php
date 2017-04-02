@@ -1,0 +1,22 @@
+16 updated
+
+Updated Files
+
+includes/header.php
+includes/vtour_header.html
+includes/footer.php
+includes/frontend.css
+admin/events_main.php
+admin/news_main.php
+admin/news_update.php
+admin/index.php
+admin/news_add.php
+admin/news_delete.php
+admin/includes/authenticate.php
+admin/includes/library.php
+admin/includes/fields_news.php
+admin/includes/header.php
+admin/includes/web_mgr.css
+admin/includes/footer.php
+
+

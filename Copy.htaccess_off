@@ -1,0 +1,9 @@
+AuthName "guelphmontessori.com"
+AuthType Basic
+AuthUserFile "/services/webpages/g/u/guelphmontessori.com/public/.htpasswd"
+<Limit GET POST PUT>
+# require valid-user
+# Order deny,allow
+# Deny from all
+# Allow from all
+</Limit>

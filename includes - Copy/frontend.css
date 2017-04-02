@@ -1,0 +1,407 @@
+body, td {
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 13px;
+}
+
+a, a:link, a:visited {
+	color: blue;
+}
+
+a:hover {
+	color: red;
+}
+
+a.subLink, a.subLink:link, a.subLink:visited {
+	color: #FFF;
+	text-decoration: none;
+}
+
+a.subLink:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+.multiDayEvent {
+	position: relative;
+	left: 15px;
+	top: 8px;
+	z-index: 1;
+}
+
+h1 {
+	font-size: 19pt;
+	font-weight: bold;
+	color: #3D4774;
+}
+
+h1.homeSubhead {
+	font-size: 18px;
+	font-weight: bold;
+	color: #C90;
+	width: 100%;
+}
+
+h1.eventDetail {
+	font-size: 20px;
+	font-weight: bold;
+	color: #C90;
+	width: 100%;
+}
+
+h2 {
+	font-size: 13pt;
+	font-weight: bold;
+	color: #C90;
+	/* border-top: 3px solid black; */
+	position: relative;
+	top: 10px;
+}
+
+.error {
+	color: red;
+}
+
+.feature {
+	background-color: #EEE;
+	font-size: 11px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-bottom: 3px;
+}
+
+.eventDetail {
+	background-color: WhiteSmoke;
+}
+
+.featureTitle {
+	font-weight: bold;
+	color: #C90;
+}
+
+.teaser {
+	width: 100%;
+	border-bottom: 1px solid #C90;
+}
+
+.teaserLink {
+	font-size: 11px;
+}
+
+.subnav {
+	font-size: 8pt;
+	border-top: 1px solid #FFF;
+	padding-left: 8px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 2px;
+}
+
+.navIndent {
+	font-size: 8pt;
+	padding-left: 25px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 2px;
+}
+
+.areaFolio {
+	font-size: 9pt;
+	font-weight: bold;
+	color: #C90;
+	border-bottom: 1px solid #000;
+}
+
+img.sidebar {
+	border-bottom: 3px solid Black;
+	border-top: 3px solid Black;
+}
+
+/*
+The .rectPageBox class is used for non-standard pages (e.g., the school-year
+calendar), to provide a black-bordered, white background box for content.
+*/
+.rectPageBox {
+	width: 95%;
+	background-color:white;
+	padding:7px;
+	border:3px solid black;
+}
+
+.pageContainer {
+	background-color: #FFF;
+	text-align: left;
+	position: relative;
+	top: -3px;
+	width: 745px;
+	border-left: 3px solid Black;
+	border-bottom: 3px solid Black;
+	border-right: 3px solid Black;
+}
+
+.subnavigation {
+	width: 139px;
+	font-size: 9pt;
+	background-color: #98ACCC;
+	color: #FFF;
+}
+
+.eventTitle {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.caption {
+	font-size: 8pt;
+	padding: 5px;
+}
+
+.copyright {
+	font-size: 8pt;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.footer {
+	background-color: white;
+	text-align: left;
+	font-size: 8pt;
+	width: 729px;
+	margin-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	/* border: 3px solid black; */
+}
+
+/* These styles apply to the virutal tour: */
+.vTour {
+	border: 3px solid Black;
+	width: 510px;
+	background-color: #98ACCC;
+	padding-bottom: 5px;
+}
+#vTour {
+	border-bottom: 3px solid Black;
+}
+#vTourDesc {
+	padding-left: 13px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: white;
+	color: black;
+	width: 510px;
+	height: 42px;
+	text-align: left;
+	border: none;
+}
+.vTourLinks {
+	text-align: center;
+	padding-top: 10px;
+	width: 510px;
+	border-top: 3px solid Black;
+}
+
+
+/* ---------------------- */
+/* -- Calendar classes -- */
+/* ---------------------- */
+
+#calLegend {
+	width: 225px;
+	color: Black;
+	background-color: #C90;
+	padding: 10px;
+}
+
+#calBody {
+	background-color: #ccc;
+}
+
+.weekHeader, .monthHeader, .daysHeader {
+	font-weight: bold;
+	color: white;
+	background-color: #3D4774;
+	text-align: center;
+	border-right: 1px solid White;
+	border-bottom: 2px solid White;
+}
+
+
+.yearHeader {
+	font-size:18px;
+	color: Black;
+	background-color: LightGrey;
+	font-weight: bold;
+	text-align: center;
+	border-right: 1px solid black;
+	border-bottom: 2px solid black;
+}
+
+.weekendDay {
+	font-weight: bold;
+	color: Black;
+	background-color: #98ACCC;
+	text-align: center;
+	border-right: 1px solid White;
+	border-bottom: 2px solid White;
+}
+
+.weekend {
+	color: white;
+	background-color: #98ACCC;
+	text-align: center;
+	border-right: 1px solid black;
+	border-bottom: 2px solid black;
+}
+
+.code {
+	background-color: white;
+}
+
+.calCode {
+	font-weight: bold;
+	color: White;
+}
+
+.calDays {
+	font-weight: bold;
+	background-color: Black;
+	color: white;
+	text-align: center;
+}
+
+.calHeader {
+	font-weight: bold;
+	text-align: center;
+	background-color: black;
+	color: #C90;			
+}
+
+.calDates {
+	background-color: white;
+}
+
+.event {
+	text-align: center;
+	border-right: 1px solid Black;
+	border-bottom: 2px solid Black;
+}
+
+a.code:link, a.code:visited {
+	font-weight: bold;
+	color: White;
+	background-color: #C90;
+	text-decoration: none;
+	padding-left: 1px;
+	padding-right: 1px;
+	border-left: 1px solid DimGray;
+	border-top: 1px solid DimGray;
+	border-right: 2px solid Black;
+	border-bottom: 3px solid Black;
+}
+
+a.code:hover {
+	font-weight: bold;
+	color: White;
+	background-color: #3D4774;
+	text-decoration: none;
+	padding-left: 1px;
+	padding-right: 1px;
+	border-left: 1px solid DimGray;
+	border-top: 1px solid DimGray;
+	border-right: 2px solid Black;
+	border-bottom: 2px solid Black;
+}
+
+.normal {
+	background-color: White;
+	text-align: center;
+	border-right: 1px solid Black;
+	border-bottom: 2px solid Black;
+}
+
+/* ******************* */
+/* Calendar styles     */
+/* ******************* */
+.event {
+	background-color: White;
+	text-align: center;
+	border-right: 1px solid Black;
+	border-bottom: 2px solid Black;
+}
+.eventToday {
+	background-color: #F99;
+	text-align: center;
+	border-right: 1px solid Black;
+	border-bottom: 2px solid Black;
+}
+.today {
+	background-color: #F99;
+	text-align: center;
+	border-left: 2px solid Black;
+	border-top: 1px solid Black;
+}
+
+/* ******************* */
+/* Form-related styles */
+/* ******************* */
+form {
+	background-color: #9CF;
+	width: 586px;
+}
+
+#newMonth {
+	background-color: #ccc;
+}
+
+.areaTitle {
+	background-color: #C90;
+	color: #FFF;
+	font-size: 11px;
+	font-weight: bold;
+	padding-left: 5px;
+	padding-bottom: 2px;
+	text-transform: uppercase;
+}
+
+.formTitle {
+	width: 100%;
+	background-color: black;
+	color: #C90;
+	font-size: 18px;
+	font-weight: bold;
+	padding-left: 5px;
+	padding-bottom: 5px;
+}
+
+.formLabel {
+	text-align: right;
+	font-weight: bold;
+	color: black;
+}
+
+.formText {
+	color: black;
+}
+
+.inputTable {
+	border: 3px solid black;
+}
+
+.inputTable td {
+	padding: 3px;
+}
+
+input, option {
+	/* background-color: #E0E9F2; */
+}
+
+input.big {
+	width: 100px;
+}
+
+input.small {
+	width: 50px;
+}

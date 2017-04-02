@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "GMS Website Administration"
+AuthUserFile /home/guelphm/.htpasswds/admin/passwd
+require valid-user

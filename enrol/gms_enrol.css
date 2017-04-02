@@ -1,0 +1,26 @@
+/* 
+  STYLESHEET FOR GMS ENROLMENT FORM
+  AUTHOR: BOB YOUNG, 2011.
+ */
+
+body { 
+	font-family: Arial, sans-serif; 
+	font-size: 13px;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+form input[type="text"] {
+    border: 1px solid gray;
+    background-color: #dde4ff;
+}
+
+td.immunoTable {
+	border-bottom: 1px solid gray;
+}
